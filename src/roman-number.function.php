@@ -1,8 +1,5 @@
-# Numbers to Roman Numbers with php
+<?php
 
-## it has very good performance
-
-```php
 function romanNumber($n)
 {
     // support for numbers greater than a thousand
@@ -37,6 +34,3 @@ function romanNumber($n)
 
     return $ret1.$ret;
 }
-```
-more information here:
-https://stackoverflow.com/questions/14994941/numbers-to-roman-numbers-with-php
